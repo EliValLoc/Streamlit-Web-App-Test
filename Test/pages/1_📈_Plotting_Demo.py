@@ -94,7 +94,7 @@ import json
 from shapely.geometry import shape
 
 # Convert the 'St Asgeojson' column to geometries
-result = pd.read_csv('https://github.com/dataprofessor/population-dashboard/raw/master/data/us-population-2010-2019-reshaped.csv')
+result = pd.read_csv('Test/us-population-2010-2019-reshaped.csv')
 result['geometry'] = result['St Asgeojson'].apply(lambda x: shape(json.loads(x)))
 
 # Create a GeoDataFrame
