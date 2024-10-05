@@ -54,8 +54,8 @@ if selected_year:
 import altair as alt 
 
 
-st.header("Let's now import an image and display it on the page:")
-st.logo('/Users/elocher/Computer_Science/Group_Project/Logo.jpg')
+st.header("Select a tab:")
+
 
 
 "Insert containers separated into tabs:"
