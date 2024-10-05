@@ -58,7 +58,7 @@ st.header("Select a tab:")
 
 
 
-"Insert containers separated into tabs:"
+
 tab1, tab2 = st.tabs(["Comparison of Population", "Map of the US"])
 tab1.header("4. How about a line chart? 📈")
 
