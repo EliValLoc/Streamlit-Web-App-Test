@@ -18,7 +18,7 @@ st.markdown(
 
     This Web-Application is my playroom to try out different functionalities of Streamlit.
 
-    You can find the code for this Web-Application on my [GitHub](https://github.com/EliValLoc/CS-Project)
+    You can find the code for this Web-Application on my [GitHub](https://github.com/EliValLoc)
     For furter information about streamlit visit the [Streamlit Website](https://streamlit.io)
 
     **Have fun!** 😊
