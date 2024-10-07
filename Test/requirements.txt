@@ -2,3 +2,4 @@ shapely
 geopandas
 plotly
 openai
+groq
