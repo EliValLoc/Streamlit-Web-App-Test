@@ -4,6 +4,8 @@ import json
 
 st.title("ChatGPT-like clone :speech_balloon:")
 
+st.sidebar.header("Plotting Demo")
+
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 if "groq_model" not in st.session_state:
