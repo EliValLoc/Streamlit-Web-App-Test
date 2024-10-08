@@ -2,9 +2,9 @@ from groq import Groq
 import streamlit as st
 import json
 
-st.title("ChatGPT-like clone :speech_balloon:")
+st.title("ChatBot:speech_balloon:")
 
-st.sidebar.header("Plotting Demo")
+st.sidebar.header("ChatBot")
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
