@@ -3,4 +3,4 @@ geopandas
 plotly
 openai
 groq
-pptx
+python-pptx
